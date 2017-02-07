@@ -1,3 +1,5 @@
 # catspajamas
-This is neat
-Pull
+
+Great for CSS Positioning and Layout: http://learnlayout.com/
+
+
