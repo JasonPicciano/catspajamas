@@ -1,8 +1,8 @@
 <!doctype html>
 <html>
 <nav>
-<a href="playlist.html">playlist</a> |
-<a href="video.html">Videos</a> |
+<a href="playlist.html/#access_token">playlist</a> |
+
 
 </nav>
 
@@ -36,7 +36,7 @@
         </div>
 
         <button class="btn btn-default" id="obtain-new-token">Obtain new token using the refresh token</button>
-        <a href="playlist.html"><button class="btn btn-default" id="playlist-btn">Go to Playlist Page</button></a>
+        <button onclick="playlistRedirect()"class="btn btn-default" id="playlist-btn">Go to Playlist Page</button>
       </div>
       <br>
       <div id="playlist-div">
@@ -102,6 +102,32 @@
 
     <script src="//cdnjs.cloudflare.com/ajax/libs/handlebars.js/2.0.0-alpha.1/handlebars.min.js"></script>
     <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+    <script>
+     function playlistRedirect(){
+       var hashParams = {};
+       var e, r = /([^&;=]+)=?([^&;]*)/g,
+           q = window.location.hash.substring(1);
+       while ( e = r.exec(q)) {
+          hashParams[e[1]] = decodeURIComponent(e[2]);
+       }
+
+        var access_token = hashParams.access_token,
+            refresh_token = hashParams.refresh_token;
+
+        window.location="/playlist.html/#access_token="+access_token+"&refresh_token="+refresh_token;
+
+
+
+     }
+
+
+
+    </script>
+
+
+
+
+
     <script>
       (function() {
 
