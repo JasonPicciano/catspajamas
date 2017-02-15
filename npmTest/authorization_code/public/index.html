@@ -27,11 +27,16 @@
         </div>
         <div id="oauth">
         </div>
+
         <button class="btn btn-default" id="obtain-new-token">Obtain new token using the refresh token</button>
+      </div>
+      <br>
+      <div id="playlist-div">
       </div>
     </div>
 
     <script id="user-profile-template" type="text/x-handlebars-template">
+      <h1>Test Environment</h1>
       <h1>Logged in as {{display_name}}</h1>
       <div class="media">
         <div class="pull-left">
@@ -46,15 +51,43 @@
             <dt>Link</dt><dd><a href="{{href}}">{{href}}</a></dd>
             <dt>Profile Image</dt><dd class="clearfix"><a href="{{images.0.url}}">{{images.0.url}}</a></dd>
             <dt>Country</dt><dd>{{country}}</dd>
+
           </dl>
         </div>
       </div>
     </script>
 
+    <script id="playlist" type="text/x-handlebars-template">
+      <h1>The playlist is {{name}}</h1>
+      <div class="media">
+
+        <div class="media-body">
+          <dl class="dl-horizontal">
+            <dt>Display name</dt><dd class="clearfix">{{name}}</dd>
+            <dt>Id</dt><dd>{{id}}</dd>
+            <dt>URI</dt><dd>{{uri}}</dd>
+            <dt>Spotify URI</dt><dd><a href="{{external_urls.spotify}}">{{external_urls.spotify}}</a></dd>
+            <dt>Link</dt><dd><a href="{{href}}">{{href}}</a></dd>
+            <dt>Description</dt><dd> {{description}} </dd>
+            <dt>Type</dt><dd>{{type}}</dd>
+            <dt>Public/Collab</dt><dd>{{public}}{{collaborative}}</dd>
+            <dt>Tracks</dt><dd>{{tracks.track}}</dd>
+          </dl>
+        </div>
+        <iframe src="https://embed.spotify.com/?uri=spotify:user:1227120426:playlist:3xmANKr6k9pw1yqHbCCRln" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+      </div>
+    </script>
+
+
+
+
+
+
+
     <script id="oauth-template" type="text/x-handlebars-template">
       <h2>oAuth info</h2>
       <dl class="dl-horizontal">
-        <dt>Access token</dt><dd class="text-overflow">{{access_token}}</dd>
+        <dt>Access token</dt><dd class="text">{{access_token}}</dd>
         <dt>Refresh token</dt><dd class="text-overflow">{{refresh_token}}></dd>
       </dl>
     </script>
@@ -86,6 +119,11 @@
             oauthTemplate = Handlebars.compile(oauthSource),
             oauthPlaceholder = document.getElementById('oauth');
 
+        var playlistSource = document.getElementById('playlist').innerHTML,
+            playlistTemplate = Handlebars.compile(playlistSource),
+            playlistPlaceholder = document.getElementById('playlist-div');
+
+
         var params = getHashParams();
 
         var access_token = params.access_token,
@@ -103,6 +141,16 @@
             });
 
             $.ajax({
+                url: 'https://api.spotify.com/v1/users/1227120426/playlists/3xmANKr6k9pw1yqHbCCRln',
+                headers: {
+                  'Authorization': 'Bearer ' + access_token
+                },
+                success: function(response) {
+                  playlistPlaceholder.innerHTML = playlistTemplate(response);
+                }
+            });
+
+            $.ajax({
                 url: 'https://api.spotify.com/v1/me',
                 headers: {
                   'Authorization': 'Bearer ' + access_token
@@ -114,6 +162,8 @@
                   $('#loggedin').show();
                 }
             });
+
+
           } else {
               // render initial screen
               $('#login').show();
@@ -139,4 +189,3 @@
     </script>
   </body>
 </html>
-
