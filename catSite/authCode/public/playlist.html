@@ -2,17 +2,12 @@
 <html>
 <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
 <script src="//cdnjs.cloudflare.com/ajax/libs/handlebars.js/2.0.0-alpha.1/handlebars.min.js"></script>
+<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
 <body>
   <nav>
   <a href="index.html">Test Page</a> |
-  <a href="video.html">Videos</a> |
+
 </nav>
-
-
-
-
-
-
 
 <div class="container">
   <div class= "title">
@@ -40,11 +35,12 @@
         </dl>
       </div>
       <iframe src="https://embed.spotify.com/?uri=spotify:user:1227120426:playlist:3xmANKr6k9pw1yqHbCCRln" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+      <ul id="playlists"></ul>
     </div>
   </script>
 
-  <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
   <script>
+    //debugger;
     (function() {
 
       /**
@@ -88,14 +84,28 @@
               }
           });
 
-        
+          $.ajax({
+              url: 'https://api.spotify.com/v1/users/1227120426/playlists',
+              headers: {
+                'Authorization': 'Bearer ' + access_token
+              },
+
+              success: function(response) {
+                var ul = document.getElementById("playlists");
+                for( var i = 0; i < response.items.length; i++)
+                {
+                  var playlist = response.items[i];
+                  var li = document.createElement("li");
+                  li.appendChild(document.createTextNode(playlist.name));
+                  ul.appendChild(li);
+                }
+              }
+          });
 
         } else {
             // render initial screen
-            $('#login').show();
-            $('#loggedin').hide();
-        }
 
+        }
 
       }
     })();
