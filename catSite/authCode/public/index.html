@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 <nav>
-<a href="playlist.html/#access_token">playlist</a> |
+<a onclick="playlistRedirect()">playlist</a> |
 
 
 </nav>
@@ -65,30 +65,6 @@
       </div>
     </script>
 
-    <script id="playlist" type="text/x-handlebars-template">
-      <h1>The playlist is {{name}}</h1>
-      <div class="media">
-
-        <div class="media-body">
-          <dl class="dl-horizontal">
-            <dt>Display name</dt><dd class="clearfix">{{name}}</dd>
-            <dt>Id</dt><dd>{{id}}</dd>
-            <dt>URI</dt><dd>{{uri}}</dd>
-            <dt>Spotify URI</dt><dd><a href="{{external_urls.spotify}}">{{external_urls.spotify}}</a></dd>
-            <dt>Link</dt><dd><a href="{{href}}">{{href}}</a></dd>
-            <dt>Description</dt><dd> {{description}} </dd>
-            <dt>Type</dt><dd>{{type}}</dd>
-            <dt>Public/Collab</dt><dd>{{public}}{{collaborative}}</dd>
-            <dt>Tracks</dt><dd>{{tracks.track}}</dd>
-          </dl>
-        </div>
-        <iframe src="https://embed.spotify.com/?uri=spotify:user:1227120426:playlist:3xmANKr6k9pw1yqHbCCRln" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
-      </div>
-    </script>
-
-
-
-
 
 
 
@@ -114,7 +90,7 @@
         var access_token = hashParams.access_token,
             refresh_token = hashParams.refresh_token;
 
-        window.location="/playlist.html/#access_token="+access_token+"&refresh_token="+refresh_token;
+        window.location="/playlist.html#access_token="+access_token+"&refresh_token="+refresh_token;
 
 
 
@@ -153,9 +129,6 @@
             oauthTemplate = Handlebars.compile(oauthSource),
             oauthPlaceholder = document.getElementById('oauth');
 
-        var playlistSource = document.getElementById('playlist').innerHTML,
-            playlistTemplate = Handlebars.compile(playlistSource),
-            playlistPlaceholder = document.getElementById('playlist-div');
 
 
         var params = getHashParams();
@@ -174,15 +147,7 @@
               refresh_token: refresh_token
             });
 
-            $.ajax({
-                url: 'https://api.spotify.com/v1/users/1227120426/playlists/3xmANKr6k9pw1yqHbCCRln',
-                headers: {
-                  'Authorization': 'Bearer ' + access_token
-                },
-                success: function(response) {
-                  playlistPlaceholder.innerHTML = playlistTemplate(response);
-                }
-            });
+
 
             $.ajax({
                 url: 'https://api.spotify.com/v1/me',
