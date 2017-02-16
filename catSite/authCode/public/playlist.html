@@ -49,7 +49,7 @@
 
   <script>
    function updatePlayer(id){
-     var url = '<iframe src="https://embed.spotify.com/?uri=spotify:user:1227120426:playlist:'+id+'" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>'
+     var url = '<iframe src="https://embed.spotify.com/?uri=spotify:user:1227120426:playlist:'+this+'" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>'
      document.getElementById("widget").innerHTML = (url);
    }
 
@@ -128,7 +128,7 @@
                 }
                 for(var i = 0; i < document.getElementById("playlists").childElementCount; i++){
                   li = document.getElementById("playlists").children[i];
-                  li.onclick = function(){updatePlayer()};
+                  li.onclick = function(){updatePlayer(this)};
 
                   }
                 }
