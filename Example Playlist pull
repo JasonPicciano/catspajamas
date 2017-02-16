@@ -1,0 +1,907 @@
+{
+  "href" : "https://api.spotify.com/v1/users/1227120426/playlists?offset=0&limit=25",
+  "items" : [ {
+    "collaborative" : false,
+    "external_urls" : {
+      "spotify" : "http://open.spotify.com/user/pumpsiegreen/playlist/4uSdK62cz0OaSzkr4NKtT0"
+    },
+    "href" : "https://api.spotify.com/v1/users/pumpsiegreen/playlists/4uSdK62cz0OaSzkr4NKtT0",
+    "id" : "4uSdK62cz0OaSzkr4NKtT0",
+    "images" : [ {
+      "height" : null,
+      "url" : "https://u.scdn.co/images/pl/default/821745e867e10f0ceb00bd7ef173694b9d548f30",
+      "width" : null
+    } ],
+    "name" : "The Quietus - Albums of the Year 2016",
+    "owner" : {
+      "external_urls" : {
+        "spotify" : "http://open.spotify.com/user/pumpsiegreen"
+      },
+      "href" : "https://api.spotify.com/v1/users/pumpsiegreen",
+      "id" : "pumpsiegreen",
+      "type" : "user",
+      "uri" : "spotify:user:pumpsiegreen"
+    },
+    "public" : false,
+    "snapshot_id" : "OxFhFl26XMddpVkCXyS2YGuFHPp6u4dQuZ35dWaCSTa1/7A9TRm8v5aLkAlpfMXU",
+    "tracks" : {
+      "href" : "https://api.spotify.com/v1/users/pumpsiegreen/playlists/4uSdK62cz0OaSzkr4NKtT0/tracks",
+      "total" : 802
+    },
+    "type" : "playlist",
+    "uri" : "spotify:user:pumpsiegreen:playlist:4uSdK62cz0OaSzkr4NKtT0"
+  }, {
+    "collaborative" : false,
+    "external_urls" : {
+      "spotify" : "http://open.spotify.com/user/1227120426/playlist/1ZtukyGtGlf7lCSFfMHuqw"
+    },
+    "href" : "https://api.spotify.com/v1/users/1227120426/playlists/1ZtukyGtGlf7lCSFfMHuqw",
+    "id" : "1ZtukyGtGlf7lCSFfMHuqw",
+    "images" : [ {
+      "height" : 640,
+      "url" : "https://mosaic.scdn.co/640/36ad5132eee494bb519cd43e70fafe427cab95dedd695d8a18d33640f2abca4588ef36a8ac1811a6d088e352f19eebb53874fcdc4366ff4249da45fe1a9dab25976c706fffccb6bf2cf8a6f5eadd0d29",
+      "width" : 640
+    }, {
+      "height" : 300,
+      "url" : "https://mosaic.scdn.co/300/36ad5132eee494bb519cd43e70fafe427cab95dedd695d8a18d33640f2abca4588ef36a8ac1811a6d088e352f19eebb53874fcdc4366ff4249da45fe1a9dab25976c706fffccb6bf2cf8a6f5eadd0d29",
+      "width" : 300
+    }, {
+      "height" : 60,
+      "url" : "https://mosaic.scdn.co/60/36ad5132eee494bb519cd43e70fafe427cab95dedd695d8a18d33640f2abca4588ef36a8ac1811a6d088e352f19eebb53874fcdc4366ff4249da45fe1a9dab25976c706fffccb6bf2cf8a6f5eadd0d29",
+      "width" : 60
+    } ],
+    "name" : "10/10",
+    "owner" : {
+      "external_urls" : {
+        "spotify" : "http://open.spotify.com/user/1227120426"
+      },
+      "href" : "https://api.spotify.com/v1/users/1227120426",
+      "id" : "1227120426",
+      "type" : "user",
+      "uri" : "spotify:user:1227120426"
+    },
+    "public" : false,
+    "snapshot_id" : "A7vHOf048cEOO5DpxU4IllBh13ZtG0sTU6Sc70CO5NLSx88KsTd7utSXflxh8DTt",
+    "tracks" : {
+      "href" : "https://api.spotify.com/v1/users/1227120426/playlists/1ZtukyGtGlf7lCSFfMHuqw/tracks",
+      "total" : 96
+    },
+    "type" : "playlist",
+    "uri" : "spotify:user:1227120426:playlist:1ZtukyGtGlf7lCSFfMHuqw"
+  }, {
+    "collaborative" : false,
+    "external_urls" : {
+      "spotify" : "http://open.spotify.com/user/1227120426/playlist/0ZOkKgDXOOJ7iBnOwRbsfQ"
+    },
+    "href" : "https://api.spotify.com/v1/users/1227120426/playlists/0ZOkKgDXOOJ7iBnOwRbsfQ",
+    "id" : "0ZOkKgDXOOJ7iBnOwRbsfQ",
+    "images" : [ {
+      "height" : 640,
+      "url" : "https://i.scdn.co/image/2409e129806a95c04bb2972d8b7c852dd4dca173",
+      "width" : 640
+    } ],
+    "name" : "Italian",
+    "owner" : {
+      "external_urls" : {
+        "spotify" : "http://open.spotify.com/user/1227120426"
+      },
+      "href" : "https://api.spotify.com/v1/users/1227120426",
+      "id" : "1227120426",
+      "type" : "user",
+      "uri" : "spotify:user:1227120426"
+    },
+    "public" : false,
+    "snapshot_id" : "gwYBh347zXWbeh2h0EhHRowrNQognfAeDt1g/TAtfNQhpmukHrGnb4IoJe7YvxvQ",
+    "tracks" : {
+      "href" : "https://api.spotify.com/v1/users/1227120426/playlists/0ZOkKgDXOOJ7iBnOwRbsfQ/tracks",
+      "total" : 72
+    },
+    "type" : "playlist",
+    "uri" : "spotify:user:1227120426:playlist:0ZOkKgDXOOJ7iBnOwRbsfQ"
+  }, {
+    "collaborative" : false,
+    "external_urls" : {
+      "spotify" : "http://open.spotify.com/user/fsharponspotify/playlist/3t0eJBn5dNQxt5vQoLejDb"
+    },
+    "href" : "https://api.spotify.com/v1/users/fsharponspotify/playlists/3t0eJBn5dNQxt5vQoLejDb",
+    "id" : "3t0eJBn5dNQxt5vQoLejDb",
+    "images" : [ {
+      "height" : null,
+      "url" : "https://u.scdn.co/images/pl/default/cc6750dcf3accada7f056c54f184f0dd15923446",
+      "width" : null
+    } ],
+    "name" : "F# Monthly Jams - February 2017",
+    "owner" : {
+      "external_urls" : {
+        "spotify" : "http://open.spotify.com/user/fsharponspotify"
+      },
+      "href" : "https://api.spotify.com/v1/users/fsharponspotify",
+      "id" : "fsharponspotify",
+      "type" : "user",
+      "uri" : "spotify:user:fsharponspotify"
+    },
+    "public" : false,
+    "snapshot_id" : "bwdh7UHFZ68DOhL5COjopeiX/+JykS2kt4UJY9iA8eudydiqXXulAfImKftQsANS",
+    "tracks" : {
+      "href" : "https://api.spotify.com/v1/users/fsharponspotify/playlists/3t0eJBn5dNQxt5vQoLejDb/tracks",
+      "total" : 23
+    },
+    "type" : "playlist",
+    "uri" : "spotify:user:fsharponspotify:playlist:3t0eJBn5dNQxt5vQoLejDb"
+  }, {
+    "collaborative" : false,
+    "external_urls" : {
+      "spotify" : "http://open.spotify.com/user/1227120426/playlist/7IPYbKGEBXxcEh0auOy6C7"
+    },
+    "href" : "https://api.spotify.com/v1/users/1227120426/playlists/7IPYbKGEBXxcEh0auOy6C7",
+    "id" : "7IPYbKGEBXxcEh0auOy6C7",
+    "images" : [ {
+      "height" : 640,
+      "url" : "https://mosaic.scdn.co/640/66b37cccc08562498fbbdbd539792c2363c1f5c6e658ebef51e2988dee3abfc93057c0867591812131c6dbe3929d99ae7f6c4d25c62b7eb929575df6e8109fccc9807e3ca82edd47d8a6e56469053e0c",
+      "width" : 640
+    }, {
+      "height" : 300,
+      "url" : "https://mosaic.scdn.co/300/66b37cccc08562498fbbdbd539792c2363c1f5c6e658ebef51e2988dee3abfc93057c0867591812131c6dbe3929d99ae7f6c4d25c62b7eb929575df6e8109fccc9807e3ca82edd47d8a6e56469053e0c",
+      "width" : 300
+    }, {
+      "height" : 60,
+      "url" : "https://mosaic.scdn.co/60/66b37cccc08562498fbbdbd539792c2363c1f5c6e658ebef51e2988dee3abfc93057c0867591812131c6dbe3929d99ae7f6c4d25c62b7eb929575df6e8109fccc9807e3ca82edd47d8a6e56469053e0c",
+      "width" : 60
+    } ],
+    "name" : "New Artists",
+    "owner" : {
+      "external_urls" : {
+        "spotify" : "http://open.spotify.com/user/1227120426"
+      },
+      "href" : "https://api.spotify.com/v1/users/1227120426",
+      "id" : "1227120426",
+      "type" : "user",
+      "uri" : "spotify:user:1227120426"
+    },
+    "public" : false,
+    "snapshot_id" : "Q/8BCOhiKIvh9HFOoSQ9cpmpKYzkvcFu8q+XWMwWHpbsrlXvCWL14JHPH4j2VkDH",
+    "tracks" : {
+      "href" : "https://api.spotify.com/v1/users/1227120426/playlists/7IPYbKGEBXxcEh0auOy6C7/tracks",
+      "total" : 178
+    },
+    "type" : "playlist",
+    "uri" : "spotify:user:1227120426:playlist:7IPYbKGEBXxcEh0auOy6C7"
+  }, {
+    "collaborative" : false,
+    "external_urls" : {
+      "spotify" : "http://open.spotify.com/user/spotify/playlist/37i9dQZEVXcMiWWakjLm3l"
+    },
+    "href" : "https://api.spotify.com/v1/users/spotify/playlists/37i9dQZEVXcMiWWakjLm3l",
+    "id" : "37i9dQZEVXcMiWWakjLm3l",
+    "images" : [ {
+      "height" : null,
+      "url" : "https://u.scdn.co/images/pl/default/dcbe9663d18bdfc051752e044dd4842bf2c7ca2a",
+      "width" : null
+    } ],
+    "name" : "Discover Weekly",
+    "owner" : {
+      "external_urls" : {
+        "spotify" : "http://open.spotify.com/user/spotify"
+      },
+      "href" : "https://api.spotify.com/v1/users/spotify",
+      "id" : "spotify",
+      "type" : "user",
+      "uri" : "spotify:user:spotify"
+    },
+    "public" : false,
+    "snapshot_id" : "/vhIMENxSYXiN6WXWsV2+ZMD9TOurtKntc5RyjE996mH3urKNsVoVLiygd7wP04jzyoVwe9jfho=",
+    "tracks" : {
+      "href" : "https://api.spotify.com/v1/users/spotify/playlists/37i9dQZEVXcMiWWakjLm3l/tracks",
+      "total" : 30
+    },
+    "type" : "playlist",
+    "uri" : "spotify:user:spotify:playlist:37i9dQZEVXcMiWWakjLm3l"
+  }, {
+    "collaborative" : false,
+    "external_urls" : {
+      "spotify" : "http://open.spotify.com/user/1227120426/playlist/3RYZen8iVfApU7aWSS81Pf"
+    },
+    "href" : "https://api.spotify.com/v1/users/1227120426/playlists/3RYZen8iVfApU7aWSS81Pf",
+    "id" : "3RYZen8iVfApU7aWSS81Pf",
+    "images" : [ {
+      "height" : 640,
+      "url" : "https://mosaic.scdn.co/640/ea59b256cbe65b48de0a46c92e18a1b219d04c4e48787c279dab6e8c1cc3b4beb27875ff37715fec791de92c6b18fef4cfc75c24119f7f95e5764ecd886433b18adc606fdbac8b545ba42d9bf6800f76",
+      "width" : 640
+    }, {
+      "height" : 300,
+      "url" : "https://mosaic.scdn.co/300/ea59b256cbe65b48de0a46c92e18a1b219d04c4e48787c279dab6e8c1cc3b4beb27875ff37715fec791de92c6b18fef4cfc75c24119f7f95e5764ecd886433b18adc606fdbac8b545ba42d9bf6800f76",
+      "width" : 300
+    }, {
+      "height" : 60,
+      "url" : "https://mosaic.scdn.co/60/ea59b256cbe65b48de0a46c92e18a1b219d04c4e48787c279dab6e8c1cc3b4beb27875ff37715fec791de92c6b18fef4cfc75c24119f7f95e5764ecd886433b18adc606fdbac8b545ba42d9bf6800f76",
+      "width" : 60
+    } ],
+    "name" : "Piano/Bass",
+    "owner" : {
+      "external_urls" : {
+        "spotify" : "http://open.spotify.com/user/1227120426"
+      },
+      "href" : "https://api.spotify.com/v1/users/1227120426",
+      "id" : "1227120426",
+      "type" : "user",
+      "uri" : "spotify:user:1227120426"
+    },
+    "public" : false,
+    "snapshot_id" : "aEx88xescLWXrvwT79HIHHp3rnVMJojyvSL5UiZiHVrh2rxF2O1P+Gjts1VA4q45",
+    "tracks" : {
+      "href" : "https://api.spotify.com/v1/users/1227120426/playlists/3RYZen8iVfApU7aWSS81Pf/tracks",
+      "total" : 14
+    },
+    "type" : "playlist",
+    "uri" : "spotify:user:1227120426:playlist:3RYZen8iVfApU7aWSS81Pf"
+  }, {
+    "collaborative" : false,
+    "external_urls" : {
+      "spotify" : "http://open.spotify.com/user/1227120426/playlist/48guerKNtC1IMNRW2L1m9s"
+    },
+    "href" : "https://api.spotify.com/v1/users/1227120426/playlists/48guerKNtC1IMNRW2L1m9s",
+    "id" : "48guerKNtC1IMNRW2L1m9s",
+    "images" : [ {
+      "height" : 640,
+      "url" : "https://i.scdn.co/image/3aa40c8a585f11c5604199478093049d4d3d3d13",
+      "width" : 640
+    } ],
+    "name" : "New Radio",
+    "owner" : {
+      "external_urls" : {
+        "spotify" : "http://open.spotify.com/user/1227120426"
+      },
+      "href" : "https://api.spotify.com/v1/users/1227120426",
+      "id" : "1227120426",
+      "type" : "user",
+      "uri" : "spotify:user:1227120426"
+    },
+    "public" : false,
+    "snapshot_id" : "9T5mbvHGMCQElO4xCV1FjH30mAlxyfbVV70lRoLvUBAcaPPCPT/rduw8TSZeCWV0",
+    "tracks" : {
+      "href" : "https://api.spotify.com/v1/users/1227120426/playlists/48guerKNtC1IMNRW2L1m9s/tracks",
+      "total" : 10
+    },
+    "type" : "playlist",
+    "uri" : "spotify:user:1227120426:playlist:48guerKNtC1IMNRW2L1m9s"
+  }, {
+    "collaborative" : false,
+    "external_urls" : {
+      "spotify" : "http://open.spotify.com/user/1227120426/playlist/4PazzGzdgn4u7eBHgulJQf"
+    },
+    "href" : "https://api.spotify.com/v1/users/1227120426/playlists/4PazzGzdgn4u7eBHgulJQf",
+    "id" : "4PazzGzdgn4u7eBHgulJQf",
+    "images" : [ {
+      "height" : 640,
+      "url" : "https://mosaic.scdn.co/640/ad596f8d5a429c9602f69b4cb6f10026e28b90c19e8d44921857d212674df6ff0b5353aa3fe143237f8df7fdd5d7f59db23fcb1b95f95c82bb174e4390e892b1477faebfae7dc28aaca748d8530059f6",
+      "width" : 640
+    }, {
+      "height" : 300,
+      "url" : "https://mosaic.scdn.co/300/ad596f8d5a429c9602f69b4cb6f10026e28b90c19e8d44921857d212674df6ff0b5353aa3fe143237f8df7fdd5d7f59db23fcb1b95f95c82bb174e4390e892b1477faebfae7dc28aaca748d8530059f6",
+      "width" : 300
+    }, {
+      "height" : 60,
+      "url" : "https://mosaic.scdn.co/60/ad596f8d5a429c9602f69b4cb6f10026e28b90c19e8d44921857d212674df6ff0b5353aa3fe143237f8df7fdd5d7f59db23fcb1b95f95c82bb174e4390e892b1477faebfae7dc28aaca748d8530059f6",
+      "width" : 60
+    } ],
+    "name" : "Radio 2/16/2015",
+    "owner" : {
+      "external_urls" : {
+        "spotify" : "http://open.spotify.com/user/1227120426"
+      },
+      "href" : "https://api.spotify.com/v1/users/1227120426",
+      "id" : "1227120426",
+      "type" : "user",
+      "uri" : "spotify:user:1227120426"
+    },
+    "public" : false,
+    "snapshot_id" : "OonDs2p5OPp86R8nXQJ8wvtnzGdfrywSLHnIOY/e8mL12g72y+PNw8iZTEKnn+ut",
+    "tracks" : {
+      "href" : "https://api.spotify.com/v1/users/1227120426/playlists/4PazzGzdgn4u7eBHgulJQf/tracks",
+      "total" : 9
+    },
+    "type" : "playlist",
+    "uri" : "spotify:user:1227120426:playlist:4PazzGzdgn4u7eBHgulJQf"
+  }, {
+    "collaborative" : false,
+    "external_urls" : {
+      "spotify" : "http://open.spotify.com/user/1227120426/playlist/3xmANKr6k9pw1yqHbCCRln"
+    },
+    "href" : "https://api.spotify.com/v1/users/1227120426/playlists/3xmANKr6k9pw1yqHbCCRln",
+    "id" : "3xmANKr6k9pw1yqHbCCRln",
+    "images" : [ {
+      "height" : 640,
+      "url" : "https://mosaic.scdn.co/640/ae6b86a2c098bc77ad131250fa5f3e3a810eeeb3740f45f6f371b5fd2586a1db53089cdceea5638f9e8d44921857d212674df6ff0b5353aa3fe143230ff13c3a6b7f71d6451c1fe5ba77627ee6d8e00a",
+      "width" : 640
+    }, {
+      "height" : 300,
+      "url" : "https://mosaic.scdn.co/300/ae6b86a2c098bc77ad131250fa5f3e3a810eeeb3740f45f6f371b5fd2586a1db53089cdceea5638f9e8d44921857d212674df6ff0b5353aa3fe143230ff13c3a6b7f71d6451c1fe5ba77627ee6d8e00a",
+      "width" : 300
+    }, {
+      "height" : 60,
+      "url" : "https://mosaic.scdn.co/60/ae6b86a2c098bc77ad131250fa5f3e3a810eeeb3740f45f6f371b5fd2586a1db53089cdceea5638f9e8d44921857d212674df6ff0b5353aa3fe143230ff13c3a6b7f71d6451c1fe5ba77627ee6d8e00a",
+      "width" : 60
+    } ],
+    "name" : "Radio 2/9/2015",
+    "owner" : {
+      "external_urls" : {
+        "spotify" : "http://open.spotify.com/user/1227120426"
+      },
+      "href" : "https://api.spotify.com/v1/users/1227120426",
+      "id" : "1227120426",
+      "type" : "user",
+      "uri" : "spotify:user:1227120426"
+    },
+    "public" : false,
+    "snapshot_id" : "7PaNfCfvayXKxZbXcOD+zSMc7F0OgiQUYRr2JgdDHb83vcsZgNk+rRCDRnGiaAkm",
+    "tracks" : {
+      "href" : "https://api.spotify.com/v1/users/1227120426/playlists/3xmANKr6k9pw1yqHbCCRln/tracks",
+      "total" : 9
+    },
+    "type" : "playlist",
+    "uri" : "spotify:user:1227120426:playlist:3xmANKr6k9pw1yqHbCCRln"
+  }, {
+    "collaborative" : false,
+    "external_urls" : {
+      "spotify" : "http://open.spotify.com/user/1227120426/playlist/17uk2jWTRB0StegNKsmw5j"
+    },
+    "href" : "https://api.spotify.com/v1/users/1227120426/playlists/17uk2jWTRB0StegNKsmw5j",
+    "id" : "17uk2jWTRB0StegNKsmw5j",
+    "images" : [ {
+      "height" : 640,
+      "url" : "https://mosaic.scdn.co/640/50ddc20c99a55f8bab16caf0af39aa09a1887066be3c5d561331197eaa1f4a7bffef348c125328b26600bdfe0ab889572dc3d83c9f28a5ed0d1d5d74da3901dcd849aea58fad0a75c282b7ef0772f5ab",
+      "width" : 640
+    }, {
+      "height" : 300,
+      "url" : "https://mosaic.scdn.co/300/50ddc20c99a55f8bab16caf0af39aa09a1887066be3c5d561331197eaa1f4a7bffef348c125328b26600bdfe0ab889572dc3d83c9f28a5ed0d1d5d74da3901dcd849aea58fad0a75c282b7ef0772f5ab",
+      "width" : 300
+    }, {
+      "height" : 60,
+      "url" : "https://mosaic.scdn.co/60/50ddc20c99a55f8bab16caf0af39aa09a1887066be3c5d561331197eaa1f4a7bffef348c125328b26600bdfe0ab889572dc3d83c9f28a5ed0d1d5d74da3901dcd849aea58fad0a75c282b7ef0772f5ab",
+      "width" : 60
+    } ],
+    "name" : "Radio 5/11/2015",
+    "owner" : {
+      "external_urls" : {
+        "spotify" : "http://open.spotify.com/user/1227120426"
+      },
+      "href" : "https://api.spotify.com/v1/users/1227120426",
+      "id" : "1227120426",
+      "type" : "user",
+      "uri" : "spotify:user:1227120426"
+    },
+    "public" : false,
+    "snapshot_id" : "+L3O7c2ZRKE4Ea0GmKYr2AAKAH5R63ixqU6P3Chnxn8tHvmmgogxPCquMWPW4DIa",
+    "tracks" : {
+      "href" : "https://api.spotify.com/v1/users/1227120426/playlists/17uk2jWTRB0StegNKsmw5j/tracks",
+      "total" : 51
+    },
+    "type" : "playlist",
+    "uri" : "spotify:user:1227120426:playlist:17uk2jWTRB0StegNKsmw5j"
+  }, {
+    "collaborative" : false,
+    "external_urls" : {
+      "spotify" : "http://open.spotify.com/user/1227120426/playlist/2zHhy424ErV14x4G4QJvdd"
+    },
+    "href" : "https://api.spotify.com/v1/users/1227120426/playlists/2zHhy424ErV14x4G4QJvdd",
+    "id" : "2zHhy424ErV14x4G4QJvdd",
+    "images" : [ {
+      "height" : 640,
+      "url" : "https://mosaic.scdn.co/640/be3c5d561331197eaa1f4a7bffef348c125328b2f798a505bf017de32ce09d7acc14727e402e016d52b1cc77b426419ef39bbeab304e5c1424c226f9f9b8a52040c584fd052eb224f0969595939008f0",
+      "width" : 640
+    }, {
+      "height" : 300,
+      "url" : "https://mosaic.scdn.co/300/be3c5d561331197eaa1f4a7bffef348c125328b2f798a505bf017de32ce09d7acc14727e402e016d52b1cc77b426419ef39bbeab304e5c1424c226f9f9b8a52040c584fd052eb224f0969595939008f0",
+      "width" : 300
+    }, {
+      "height" : 60,
+      "url" : "https://mosaic.scdn.co/60/be3c5d561331197eaa1f4a7bffef348c125328b2f798a505bf017de32ce09d7acc14727e402e016d52b1cc77b426419ef39bbeab304e5c1424c226f9f9b8a52040c584fd052eb224f0969595939008f0",
+      "width" : 60
+    } ],
+    "name" : "Radio 4/27/2015",
+    "owner" : {
+      "external_urls" : {
+        "spotify" : "http://open.spotify.com/user/1227120426"
+      },
+      "href" : "https://api.spotify.com/v1/users/1227120426",
+      "id" : "1227120426",
+      "type" : "user",
+      "uri" : "spotify:user:1227120426"
+    },
+    "public" : false,
+    "snapshot_id" : "iuiwEzcbuzuhV3O0+7IOh99vMaZMA9bxHtcMqczaw39MJLwTCoeAlYBfkJ6WWP/i",
+    "tracks" : {
+      "href" : "https://api.spotify.com/v1/users/1227120426/playlists/2zHhy424ErV14x4G4QJvdd/tracks",
+      "total" : 11
+    },
+    "type" : "playlist",
+    "uri" : "spotify:user:1227120426:playlist:2zHhy424ErV14x4G4QJvdd"
+  }, {
+    "collaborative" : false,
+    "external_urls" : {
+      "spotify" : "http://open.spotify.com/user/1227120426/playlist/1WohQ3oCfgM4p7sAIqlr6H"
+    },
+    "href" : "https://api.spotify.com/v1/users/1227120426/playlists/1WohQ3oCfgM4p7sAIqlr6H",
+    "id" : "1WohQ3oCfgM4p7sAIqlr6H",
+    "images" : [ {
+      "height" : 640,
+      "url" : "https://mosaic.scdn.co/640/be3c5d561331197eaa1f4a7bffef348c125328b2f9b8a52040c584fd052eb224f0969595939008f0f798a505bf017de32ce09d7acc14727e402e016d3baf31b8235746670cd59152b22759686ab9ea38",
+      "width" : 640
+    }, {
+      "height" : 300,
+      "url" : "https://mosaic.scdn.co/300/be3c5d561331197eaa1f4a7bffef348c125328b2f9b8a52040c584fd052eb224f0969595939008f0f798a505bf017de32ce09d7acc14727e402e016d3baf31b8235746670cd59152b22759686ab9ea38",
+      "width" : 300
+    }, {
+      "height" : 60,
+      "url" : "https://mosaic.scdn.co/60/be3c5d561331197eaa1f4a7bffef348c125328b2f9b8a52040c584fd052eb224f0969595939008f0f798a505bf017de32ce09d7acc14727e402e016d3baf31b8235746670cd59152b22759686ab9ea38",
+      "width" : 60
+    } ],
+    "name" : "Radio 4/20/2015",
+    "owner" : {
+      "external_urls" : {
+        "spotify" : "http://open.spotify.com/user/1227120426"
+      },
+      "href" : "https://api.spotify.com/v1/users/1227120426",
+      "id" : "1227120426",
+      "type" : "user",
+      "uri" : "spotify:user:1227120426"
+    },
+    "public" : false,
+    "snapshot_id" : "egdjjfMze0gMRhLrG0/RQif+zzUZvJ0p2dRsVTT15kaoo1LRsun3KmU85QZ9wKwB",
+    "tracks" : {
+      "href" : "https://api.spotify.com/v1/users/1227120426/playlists/1WohQ3oCfgM4p7sAIqlr6H/tracks",
+      "total" : 10
+    },
+    "type" : "playlist",
+    "uri" : "spotify:user:1227120426:playlist:1WohQ3oCfgM4p7sAIqlr6H"
+  }, {
+    "collaborative" : false,
+    "external_urls" : {
+      "spotify" : "http://open.spotify.com/user/1227120426/playlist/2UwD1NTfwXGBuy8LAR5ZtM"
+    },
+    "href" : "https://api.spotify.com/v1/users/1227120426/playlists/2UwD1NTfwXGBuy8LAR5ZtM",
+    "id" : "2UwD1NTfwXGBuy8LAR5ZtM",
+    "images" : [ {
+      "height" : 640,
+      "url" : "https://mosaic.scdn.co/640/fb1758ea4121808b0a66b2eb2dbe5863daa71a24567f997a961b85cf976c72ee86f3a7c69332fcb377318e80ac7064eb94d92900f32e9e301bfe2409632f61ccf36aaed4db51f44f2f362b009b8e6ddf",
+      "width" : 640
+    }, {
+      "height" : 300,
+      "url" : "https://mosaic.scdn.co/300/fb1758ea4121808b0a66b2eb2dbe5863daa71a24567f997a961b85cf976c72ee86f3a7c69332fcb377318e80ac7064eb94d92900f32e9e301bfe2409632f61ccf36aaed4db51f44f2f362b009b8e6ddf",
+      "width" : 300
+    }, {
+      "height" : 60,
+      "url" : "https://mosaic.scdn.co/60/fb1758ea4121808b0a66b2eb2dbe5863daa71a24567f997a961b85cf976c72ee86f3a7c69332fcb377318e80ac7064eb94d92900f32e9e301bfe2409632f61ccf36aaed4db51f44f2f362b009b8e6ddf",
+      "width" : 60
+    } ],
+    "name" : "3/30/2015",
+    "owner" : {
+      "external_urls" : {
+        "spotify" : "http://open.spotify.com/user/1227120426"
+      },
+      "href" : "https://api.spotify.com/v1/users/1227120426",
+      "id" : "1227120426",
+      "type" : "user",
+      "uri" : "spotify:user:1227120426"
+    },
+    "public" : false,
+    "snapshot_id" : "koDb7rNUi81cb3bB1xC5KgOpAV3Abduf7zmXmAAtU/HlStIlvQ2up1xa9qhmBvvf",
+    "tracks" : {
+      "href" : "https://api.spotify.com/v1/users/1227120426/playlists/2UwD1NTfwXGBuy8LAR5ZtM/tracks",
+      "total" : 10
+    },
+    "type" : "playlist",
+    "uri" : "spotify:user:1227120426:playlist:2UwD1NTfwXGBuy8LAR5ZtM"
+  }, {
+    "collaborative" : false,
+    "external_urls" : {
+      "spotify" : "http://open.spotify.com/user/1227120426/playlist/0jCIDwmDpcyhxjFTKOI2pQ"
+    },
+    "href" : "https://api.spotify.com/v1/users/1227120426/playlists/0jCIDwmDpcyhxjFTKOI2pQ",
+    "id" : "0jCIDwmDpcyhxjFTKOI2pQ",
+    "images" : [ {
+      "height" : 640,
+      "url" : "https://mosaic.scdn.co/640/be3c5d561331197eaa1f4a7bffef348c125328b2419def231da2ff299ba8092a7b2a5742fb72f2d3ac2070dd50a0e731ccf108a662ff29fe085bd433af7dadc5da4ac8a3db7c2757228baf45eab7f63a",
+      "width" : 640
+    }, {
+      "height" : 300,
+      "url" : "https://mosaic.scdn.co/300/be3c5d561331197eaa1f4a7bffef348c125328b2419def231da2ff299ba8092a7b2a5742fb72f2d3ac2070dd50a0e731ccf108a662ff29fe085bd433af7dadc5da4ac8a3db7c2757228baf45eab7f63a",
+      "width" : 300
+    }, {
+      "height" : 60,
+      "url" : "https://mosaic.scdn.co/60/be3c5d561331197eaa1f4a7bffef348c125328b2419def231da2ff299ba8092a7b2a5742fb72f2d3ac2070dd50a0e731ccf108a662ff29fe085bd433af7dadc5da4ac8a3db7c2757228baf45eab7f63a",
+      "width" : 60
+    } ],
+    "name" : "Radio 4/13/2015",
+    "owner" : {
+      "external_urls" : {
+        "spotify" : "http://open.spotify.com/user/1227120426"
+      },
+      "href" : "https://api.spotify.com/v1/users/1227120426",
+      "id" : "1227120426",
+      "type" : "user",
+      "uri" : "spotify:user:1227120426"
+    },
+    "public" : false,
+    "snapshot_id" : "NNXcShTSvPZHjX5ZoFvZFmV6mMy4GNgvjPL9hgnhKpP8tUlCjowiLho5yuNfiXjq",
+    "tracks" : {
+      "href" : "https://api.spotify.com/v1/users/1227120426/playlists/0jCIDwmDpcyhxjFTKOI2pQ/tracks",
+      "total" : 13
+    },
+    "type" : "playlist",
+    "uri" : "spotify:user:1227120426:playlist:0jCIDwmDpcyhxjFTKOI2pQ"
+  }, {
+    "collaborative" : false,
+    "external_urls" : {
+      "spotify" : "http://open.spotify.com/user/1227120426/playlist/004jnw3kyYgMwNJExj3erk"
+    },
+    "href" : "https://api.spotify.com/v1/users/1227120426/playlists/004jnw3kyYgMwNJExj3erk",
+    "id" : "004jnw3kyYgMwNJExj3erk",
+    "images" : [ {
+      "height" : 640,
+      "url" : "https://mosaic.scdn.co/640/64e68e11e5f24043185c054fb0a632e3429cfb879e8d44921857d212674df6ff0b5353aa3fe143235433fddc3fbd4d723da1232ae41fc094aa0aedaabf35d6958be7164a5c54e541a0e55e787667f2cc",
+      "width" : 640
+    }, {
+      "height" : 300,
+      "url" : "https://mosaic.scdn.co/300/64e68e11e5f24043185c054fb0a632e3429cfb879e8d44921857d212674df6ff0b5353aa3fe143235433fddc3fbd4d723da1232ae41fc094aa0aedaabf35d6958be7164a5c54e541a0e55e787667f2cc",
+      "width" : 300
+    }, {
+      "height" : 60,
+      "url" : "https://mosaic.scdn.co/60/64e68e11e5f24043185c054fb0a632e3429cfb879e8d44921857d212674df6ff0b5353aa3fe143235433fddc3fbd4d723da1232ae41fc094aa0aedaabf35d6958be7164a5c54e541a0e55e787667f2cc",
+      "width" : 60
+    } ],
+    "name" : "Radio 4/6/2015",
+    "owner" : {
+      "external_urls" : {
+        "spotify" : "http://open.spotify.com/user/1227120426"
+      },
+      "href" : "https://api.spotify.com/v1/users/1227120426",
+      "id" : "1227120426",
+      "type" : "user",
+      "uri" : "spotify:user:1227120426"
+    },
+    "public" : false,
+    "snapshot_id" : "VN4pE2EiIwP46kBG6WaGLugfbzS2vm+k0iyf3/xGiAi7aap77dduHmZE0amNe6cx",
+    "tracks" : {
+      "href" : "https://api.spotify.com/v1/users/1227120426/playlists/004jnw3kyYgMwNJExj3erk/tracks",
+      "total" : 10
+    },
+    "type" : "playlist",
+    "uri" : "spotify:user:1227120426:playlist:004jnw3kyYgMwNJExj3erk"
+  }, {
+    "collaborative" : false,
+    "external_urls" : {
+      "spotify" : "http://open.spotify.com/user/1227120426/playlist/7jfBzUNywpbbzrvRGdWY9K"
+    },
+    "href" : "https://api.spotify.com/v1/users/1227120426/playlists/7jfBzUNywpbbzrvRGdWY9K",
+    "id" : "7jfBzUNywpbbzrvRGdWY9K",
+    "images" : [ ],
+    "name" : "Radio 3/30/2015",
+    "owner" : {
+      "external_urls" : {
+        "spotify" : "http://open.spotify.com/user/1227120426"
+      },
+      "href" : "https://api.spotify.com/v1/users/1227120426",
+      "id" : "1227120426",
+      "type" : "user",
+      "uri" : "spotify:user:1227120426"
+    },
+    "public" : false,
+    "snapshot_id" : "0s7jE7K5f3E8g/p0sE/mwpjng6SzjyLfHKpwyAvSDntgILCE0x9cPE+/c5cYaZER",
+    "tracks" : {
+      "href" : "https://api.spotify.com/v1/users/1227120426/playlists/7jfBzUNywpbbzrvRGdWY9K/tracks",
+      "total" : 0
+    },
+    "type" : "playlist",
+    "uri" : "spotify:user:1227120426:playlist:7jfBzUNywpbbzrvRGdWY9K"
+  }, {
+    "collaborative" : false,
+    "external_urls" : {
+      "spotify" : "http://open.spotify.com/user/1227120426/playlist/1dZr1ghT6sYYd60HgKx2Ef"
+    },
+    "href" : "https://api.spotify.com/v1/users/1227120426/playlists/1dZr1ghT6sYYd60HgKx2Ef",
+    "id" : "1dZr1ghT6sYYd60HgKx2Ef",
+    "images" : [ {
+      "height" : 640,
+      "url" : "https://mosaic.scdn.co/640/b58b7b174f7eb220740d1de65f68cf43b0ac159477318e80ac7064eb94d92900f32e9e301bfe240997a6af25ad62be30637eb5217c9ca8e63a9b96a3e97144d4ab1e76a04e30ece073fb53e7b41dd7ac",
+      "width" : 640
+    }, {
+      "height" : 300,
+      "url" : "https://mosaic.scdn.co/300/b58b7b174f7eb220740d1de65f68cf43b0ac159477318e80ac7064eb94d92900f32e9e301bfe240997a6af25ad62be30637eb5217c9ca8e63a9b96a3e97144d4ab1e76a04e30ece073fb53e7b41dd7ac",
+      "width" : 300
+    }, {
+      "height" : 60,
+      "url" : "https://mosaic.scdn.co/60/b58b7b174f7eb220740d1de65f68cf43b0ac159477318e80ac7064eb94d92900f32e9e301bfe240997a6af25ad62be30637eb5217c9ca8e63a9b96a3e97144d4ab1e76a04e30ece073fb53e7b41dd7ac",
+      "width" : 60
+    } ],
+    "name" : "Radio 3/9/15",
+    "owner" : {
+      "external_urls" : {
+        "spotify" : "http://open.spotify.com/user/1227120426"
+      },
+      "href" : "https://api.spotify.com/v1/users/1227120426",
+      "id" : "1227120426",
+      "type" : "user",
+      "uri" : "spotify:user:1227120426"
+    },
+    "public" : false,
+    "snapshot_id" : "HN0YrjvGgxBFV0NvJIpFgQmKWhBYQiNev/YUhmdSOflb0EB5UO6jvG2U0epDYPdq",
+    "tracks" : {
+      "href" : "https://api.spotify.com/v1/users/1227120426/playlists/1dZr1ghT6sYYd60HgKx2Ef/tracks",
+      "total" : 9
+    },
+    "type" : "playlist",
+    "uri" : "spotify:user:1227120426:playlist:1dZr1ghT6sYYd60HgKx2Ef"
+  }, {
+    "collaborative" : false,
+    "external_urls" : {
+      "spotify" : "http://open.spotify.com/user/1227120426/playlist/3d6u1hozQ52PV95AhFlGoU"
+    },
+    "href" : "https://api.spotify.com/v1/users/1227120426/playlists/3d6u1hozQ52PV95AhFlGoU",
+    "id" : "3d6u1hozQ52PV95AhFlGoU",
+    "images" : [ {
+      "height" : 640,
+      "url" : "https://mosaic.scdn.co/640/97a76ba11512dccbb5a0ae1d6b2ea7b2327146eeaf7dadc5da4ac8a3db7c2757228baf45eab7f63a5e3f7e895334369a7f2a807b3e829bf7a9e894a9419def231da2ff299ba8092a7b2a5742fb72f2d3",
+      "width" : 640
+    }, {
+      "height" : 300,
+      "url" : "https://mosaic.scdn.co/300/97a76ba11512dccbb5a0ae1d6b2ea7b2327146eeaf7dadc5da4ac8a3db7c2757228baf45eab7f63a5e3f7e895334369a7f2a807b3e829bf7a9e894a9419def231da2ff299ba8092a7b2a5742fb72f2d3",
+      "width" : 300
+    }, {
+      "height" : 60,
+      "url" : "https://mosaic.scdn.co/60/97a76ba11512dccbb5a0ae1d6b2ea7b2327146eeaf7dadc5da4ac8a3db7c2757228baf45eab7f63a5e3f7e895334369a7f2a807b3e829bf7a9e894a9419def231da2ff299ba8092a7b2a5742fb72f2d3",
+      "width" : 60
+    } ],
+    "name" : "Radio 3/2/2015",
+    "owner" : {
+      "external_urls" : {
+        "spotify" : "http://open.spotify.com/user/1227120426"
+      },
+      "href" : "https://api.spotify.com/v1/users/1227120426",
+      "id" : "1227120426",
+      "type" : "user",
+      "uri" : "spotify:user:1227120426"
+    },
+    "public" : false,
+    "snapshot_id" : "fCoNvFvOl+u1EOlva6TXfwj5JKK+z6O8Lj75w5sLXDnWzJx9I2GLpGacgiyhg8zG",
+    "tracks" : {
+      "href" : "https://api.spotify.com/v1/users/1227120426/playlists/3d6u1hozQ52PV95AhFlGoU/tracks",
+      "total" : 13
+    },
+    "type" : "playlist",
+    "uri" : "spotify:user:1227120426:playlist:3d6u1hozQ52PV95AhFlGoU"
+  }, {
+    "collaborative" : false,
+    "external_urls" : {
+      "spotify" : "http://open.spotify.com/user/1227120426/playlist/3RFvTnF7R3DLAwURlP0baD"
+    },
+    "href" : "https://api.spotify.com/v1/users/1227120426/playlists/3RFvTnF7R3DLAwURlP0baD",
+    "id" : "3RFvTnF7R3DLAwURlP0baD",
+    "images" : [ {
+      "height" : 640,
+      "url" : "https://mosaic.scdn.co/640/6a2db0e857d6c5b42b156f5321360d192738a2197455787558a376e66d661ac25370964f617f5d84c581d767b74e1bddefe30818299f587c765bb826f3443646e312bdbc80136c80bd5ea743052e8185",
+      "width" : 640
+    }, {
+      "height" : 300,
+      "url" : "https://mosaic.scdn.co/300/6a2db0e857d6c5b42b156f5321360d192738a2197455787558a376e66d661ac25370964f617f5d84c581d767b74e1bddefe30818299f587c765bb826f3443646e312bdbc80136c80bd5ea743052e8185",
+      "width" : 300
+    }, {
+      "height" : 60,
+      "url" : "https://mosaic.scdn.co/60/6a2db0e857d6c5b42b156f5321360d192738a2197455787558a376e66d661ac25370964f617f5d84c581d767b74e1bddefe30818299f587c765bb826f3443646e312bdbc80136c80bd5ea743052e8185",
+      "width" : 60
+    } ],
+    "name" : "Radio 2/23/2015",
+    "owner" : {
+      "external_urls" : {
+        "spotify" : "http://open.spotify.com/user/1227120426"
+      },
+      "href" : "https://api.spotify.com/v1/users/1227120426",
+      "id" : "1227120426",
+      "type" : "user",
+      "uri" : "spotify:user:1227120426"
+    },
+    "public" : false,
+    "snapshot_id" : "pYPG6W2mtE64DccxDWKiiMlcGyo5KVktvmpgNvaI29GD6gnle/ncGVn2HSiaDbcR",
+    "tracks" : {
+      "href" : "https://api.spotify.com/v1/users/1227120426/playlists/3RFvTnF7R3DLAwURlP0baD/tracks",
+      "total" : 7
+    },
+    "type" : "playlist",
+    "uri" : "spotify:user:1227120426:playlist:3RFvTnF7R3DLAwURlP0baD"
+  }, {
+    "collaborative" : false,
+    "external_urls" : {
+      "spotify" : "http://open.spotify.com/user/1227120426/playlist/60DlnGw7Up2RAyJEV9zOJ3"
+    },
+    "href" : "https://api.spotify.com/v1/users/1227120426/playlists/60DlnGw7Up2RAyJEV9zOJ3",
+    "id" : "60DlnGw7Up2RAyJEV9zOJ3",
+    "images" : [ {
+      "height" : 640,
+      "url" : "https://mosaic.scdn.co/640/bf35d6958be7164a5c54e541a0e55e787667f2cc3aa40c8a585f11c5604199478093049d4d3d3d13c8fda3829a61f8f7fe45d38af946de070d462d2c5b8d9173e8d074fd39b3c2bda708fe72b13b410b",
+      "width" : 640
+    }, {
+      "height" : 300,
+      "url" : "https://mosaic.scdn.co/300/bf35d6958be7164a5c54e541a0e55e787667f2cc3aa40c8a585f11c5604199478093049d4d3d3d13c8fda3829a61f8f7fe45d38af946de070d462d2c5b8d9173e8d074fd39b3c2bda708fe72b13b410b",
+      "width" : 300
+    }, {
+      "height" : 60,
+      "url" : "https://mosaic.scdn.co/60/bf35d6958be7164a5c54e541a0e55e787667f2cc3aa40c8a585f11c5604199478093049d4d3d3d13c8fda3829a61f8f7fe45d38af946de070d462d2c5b8d9173e8d074fd39b3c2bda708fe72b13b410b",
+      "width" : 60
+    } ],
+    "name" : "Radio 2/2/2015",
+    "owner" : {
+      "external_urls" : {
+        "spotify" : "http://open.spotify.com/user/1227120426"
+      },
+      "href" : "https://api.spotify.com/v1/users/1227120426",
+      "id" : "1227120426",
+      "type" : "user",
+      "uri" : "spotify:user:1227120426"
+    },
+    "public" : false,
+    "snapshot_id" : "mioQHBQDIK2OGCXWEf5X1r/yRr3dn80hAP4w7uD1whgsYwInkJDbG5kgzQMldnFb",
+    "tracks" : {
+      "href" : "https://api.spotify.com/v1/users/1227120426/playlists/60DlnGw7Up2RAyJEV9zOJ3/tracks",
+      "total" : 9
+    },
+    "type" : "playlist",
+    "uri" : "spotify:user:1227120426:playlist:60DlnGw7Up2RAyJEV9zOJ3"
+  }, {
+    "collaborative" : false,
+    "external_urls" : {
+      "spotify" : "http://open.spotify.com/user/1227120426/playlist/6kWoYicHbxudc57VtJftiv"
+    },
+    "href" : "https://api.spotify.com/v1/users/1227120426/playlists/6kWoYicHbxudc57VtJftiv",
+    "id" : "6kWoYicHbxudc57VtJftiv",
+    "images" : [ {
+      "height" : 640,
+      "url" : "https://mosaic.scdn.co/640/ba01edde6b6ca8a092abbbab91c809b30dba7cd16de1bc74eea14f87fbd49a1a2f5891825fab0f188acce4ab51f679211f87a745fc7164e987328948fdf4066b33c1edf0be8ecaf607a53fc454109afb",
+      "width" : 640
+    }, {
+      "height" : 300,
+      "url" : "https://mosaic.scdn.co/300/ba01edde6b6ca8a092abbbab91c809b30dba7cd16de1bc74eea14f87fbd49a1a2f5891825fab0f188acce4ab51f679211f87a745fc7164e987328948fdf4066b33c1edf0be8ecaf607a53fc454109afb",
+      "width" : 300
+    }, {
+      "height" : 60,
+      "url" : "https://mosaic.scdn.co/60/ba01edde6b6ca8a092abbbab91c809b30dba7cd16de1bc74eea14f87fbd49a1a2f5891825fab0f188acce4ab51f679211f87a745fc7164e987328948fdf4066b33c1edf0be8ecaf607a53fc454109afb",
+      "width" : 60
+    } ],
+    "name" : "Radio 1/19/2015",
+    "owner" : {
+      "external_urls" : {
+        "spotify" : "http://open.spotify.com/user/1227120426"
+      },
+      "href" : "https://api.spotify.com/v1/users/1227120426",
+      "id" : "1227120426",
+      "type" : "user",
+      "uri" : "spotify:user:1227120426"
+    },
+    "public" : false,
+    "snapshot_id" : "nqYYX+GlX3ic6kaIgcw/If2ovqWtumCBYUNBQm5bU2naxndmTj/cB92T2hWcFfvS",
+    "tracks" : {
+      "href" : "https://api.spotify.com/v1/users/1227120426/playlists/6kWoYicHbxudc57VtJftiv/tracks",
+      "total" : 9
+    },
+    "type" : "playlist",
+    "uri" : "spotify:user:1227120426:playlist:6kWoYicHbxudc57VtJftiv"
+  }, {
+    "collaborative" : false,
+    "external_urls" : {
+      "spotify" : "http://open.spotify.com/user/1227120426/playlist/5fiyKxqmgqAWV2HMAkVeOX"
+    },
+    "href" : "https://api.spotify.com/v1/users/1227120426/playlists/5fiyKxqmgqAWV2HMAkVeOX",
+    "id" : "5fiyKxqmgqAWV2HMAkVeOX",
+    "images" : [ {
+      "height" : 640,
+      "url" : "https://mosaic.scdn.co/640/ff9f2a78171c80ff22f9096a2a52dc7e005ba6b51ed4f54c766fab12f145225168c7928b819c348ec8fda3829a61f8f7fe45d38af946de070d462d2c931bf754d3044b50705d103899980bc71b00e8af",
+      "width" : 640
+    }, {
+      "height" : 300,
+      "url" : "https://mosaic.scdn.co/300/ff9f2a78171c80ff22f9096a2a52dc7e005ba6b51ed4f54c766fab12f145225168c7928b819c348ec8fda3829a61f8f7fe45d38af946de070d462d2c931bf754d3044b50705d103899980bc71b00e8af",
+      "width" : 300
+    }, {
+      "height" : 60,
+      "url" : "https://mosaic.scdn.co/60/ff9f2a78171c80ff22f9096a2a52dc7e005ba6b51ed4f54c766fab12f145225168c7928b819c348ec8fda3829a61f8f7fe45d38af946de070d462d2c931bf754d3044b50705d103899980bc71b00e8af",
+      "width" : 60
+    } ],
+    "name" : "Radio 1/26/2015",
+    "owner" : {
+      "external_urls" : {
+        "spotify" : "http://open.spotify.com/user/1227120426"
+      },
+      "href" : "https://api.spotify.com/v1/users/1227120426",
+      "id" : "1227120426",
+      "type" : "user",
+      "uri" : "spotify:user:1227120426"
+    },
+    "public" : false,
+    "snapshot_id" : "SkMIIdf4xYVYvheSO49o6u5wOxY2+Ulr4bwF7BGE7Vbu/ky2AkVyYjS6UfDwJaCP",
+    "tracks" : {
+      "href" : "https://api.spotify.com/v1/users/1227120426/playlists/5fiyKxqmgqAWV2HMAkVeOX/tracks",
+      "total" : 11
+    },
+    "type" : "playlist",
+    "uri" : "spotify:user:1227120426:playlist:5fiyKxqmgqAWV2HMAkVeOX"
+  }, {
+    "collaborative" : false,
+    "external_urls" : {
+      "spotify" : "http://open.spotify.com/user/1227120426/playlist/0UG7q5FeHEZp8m4Sio28YC"
+    },
+    "href" : "https://api.spotify.com/v1/users/1227120426/playlists/0UG7q5FeHEZp8m4Sio28YC",
+    "id" : "0UG7q5FeHEZp8m4Sio28YC",
+    "images" : [ {
+      "height" : 640,
+      "url" : "https://mosaic.scdn.co/640/c0cf2367f36d0e435d9a718305beab2e17c1a394e91a53c89a0890eac44c6a73bda477d8d989769bba60b1cb22d94c4e9f929854562225b951a400293baf31b8235746670cd59152b22759686ab9ea38",
+      "width" : 640
+    }, {
+      "height" : 300,
+      "url" : "https://mosaic.scdn.co/300/c0cf2367f36d0e435d9a718305beab2e17c1a394e91a53c89a0890eac44c6a73bda477d8d989769bba60b1cb22d94c4e9f929854562225b951a400293baf31b8235746670cd59152b22759686ab9ea38",
+      "width" : 300
+    }, {
+      "height" : 60,
+      "url" : "https://mosaic.scdn.co/60/c0cf2367f36d0e435d9a718305beab2e17c1a394e91a53c89a0890eac44c6a73bda477d8d989769bba60b1cb22d94c4e9f929854562225b951a400293baf31b8235746670cd59152b22759686ab9ea38",
+      "width" : 60
+    } ],
+    "name" : "Radio 10/18/2013",
+    "owner" : {
+      "external_urls" : {
+        "spotify" : "http://open.spotify.com/user/1227120426"
+      },
+      "href" : "https://api.spotify.com/v1/users/1227120426",
+      "id" : "1227120426",
+      "type" : "user",
+      "uri" : "spotify:user:1227120426"
+    },
+    "public" : false,
+    "snapshot_id" : "zROWUVd4YgmbTOr/ZN4ZFHSUHJvoItimtsDKZBDzSvSyhANEcpXHMyE7qirA9JBS",
+    "tracks" : {
+      "href" : "https://api.spotify.com/v1/users/1227120426/playlists/0UG7q5FeHEZp8m4Sio28YC/tracks",
+      "total" : 23
+    },
+    "type" : "playlist",
+    "uri" : "spotify:user:1227120426:playlist:0UG7q5FeHEZp8m4Sio28YC"
+  }, {
+    "collaborative" : false,
+    "external_urls" : {
+      "spotify" : "http://open.spotify.com/user/1227120426/playlist/2OsT0xKmAGEeGrnuDj84du"
+    },
+    "href" : "https://api.spotify.com/v1/users/1227120426/playlists/2OsT0xKmAGEeGrnuDj84du",
+    "id" : "2OsT0xKmAGEeGrnuDj84du",
+    "images" : [ {
+      "height" : 640,
+      "url" : "https://mosaic.scdn.co/640/364e3dbcf798f620506ce0a36f3dead572bdcdce740f45f6f371b5fd2586a1db53089cdceea5638ff36a4af7098fcda23163e3d7477d2f2db6969fae76733db42ad0dce26075834f0f1e26e58dc1a6d1",
+      "width" : 640
+    }, {
+      "height" : 300,
+      "url" : "https://mosaic.scdn.co/300/364e3dbcf798f620506ce0a36f3dead572bdcdce740f45f6f371b5fd2586a1db53089cdceea5638ff36a4af7098fcda23163e3d7477d2f2db6969fae76733db42ad0dce26075834f0f1e26e58dc1a6d1",
+      "width" : 300
+    }, {
+      "height" : 60,
+      "url" : "https://mosaic.scdn.co/60/364e3dbcf798f620506ce0a36f3dead572bdcdce740f45f6f371b5fd2586a1db53089cdceea5638ff36a4af7098fcda23163e3d7477d2f2db6969fae76733db42ad0dce26075834f0f1e26e58dc1a6d1",
+      "width" : 60
+    } ],
+    "name" : "Radio 11/1/2013",
+    "owner" : {
+      "external_urls" : {
+        "spotify" : "http://open.spotify.com/user/1227120426"
+      },
+      "href" : "https://api.spotify.com/v1/users/1227120426",
+      "id" : "1227120426",
+      "type" : "user",
+      "uri" : "spotify:user:1227120426"
+    },
+    "public" : false,
+    "snapshot_id" : "MbVEHtVQzvxArOMbFtFajQt1O+qY3L61b7F7UhQ4FcS/gRzTsBmyE16Adl8noK+k",
+    "tracks" : {
+      "href" : "https://api.spotify.com/v1/users/1227120426/playlists/2OsT0xKmAGEeGrnuDj84du/tracks",
+      "total" : 13
+    },
+    "type" : "playlist",
+    "uri" : "spotify:user:1227120426:playlist:2OsT0xKmAGEeGrnuDj84du"
+  } ],
+  "limit" : 25,
+  "next" : "https://api.spotify.com/v1/users/1227120426/playlists?offset=25&limit=25",
+  "offset" : 0,
+  "previous" : null,
+  "total" : 41
+}

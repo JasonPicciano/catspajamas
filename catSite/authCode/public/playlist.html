@@ -34,10 +34,32 @@
           <dt>Tracks</dt><dd>{{tracks.track}}</dd>
         </dl>
       </div>
-      <iframe src="https://embed.spotify.com/?uri=spotify:user:1227120426:playlist:3xmANKr6k9pw1yqHbCCRln" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+    </div>
+
+    <div id="widget">
+        <iframe src="https://embed.spotify.com/?uri=spotify:user:1227120426:playlist:3xmANKr6k9pw1yqHbCCRln" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+    </div>
+
+    <div>
       <ul id="playlists"></ul>
     </div>
+
   </script>
+
+
+  <script>
+   function updatePlayer(id){
+     var url = '<iframe src="https://embed.spotify.com/?uri=spotify:user:1227120426:playlist:'+id+'" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>'
+     document.getElementById("widget").innerHTML = (url);
+   }
+
+
+
+  </script>
+
+
+
+
 
   <script>
     //debugger;
@@ -68,6 +90,8 @@
           refresh_token = params.refresh_token,
           error = params.error;
 
+
+
       if (error) {
         alert('There was an error during the authentication');
       } else {
@@ -92,15 +116,23 @@
 
               success: function(response) {
                 var ul = document.getElementById("playlists");
-                for( var i = 0; i < response.items.length; i++)
+                for(var i = 0; i < response.items.length; i++)
                 {
                   var playlist = response.items[i];
-                  var li = document.createElement("li");
-                  li.appendChild(document.createTextNode(playlist.name));
-                  ul.appendChild(li);
+                  var a = document.createElement("A");
+                  a.innerHTML = playlist.name;
+                  var id = playlist.id;
+                  ul.appendChild(a);
+                  a.weirdid = id;
+                  //can I set a breakpoint herr?
                 }
-              }
-          });
+                for(var i = 0; i < document.getElementById("playlists").childElementCount; i++){
+                  li = document.getElementById("playlists").children[i];
+                  li.onclick = function(){updatePlayer()};
+
+                  }
+                }
+             });
 
         } else {
             // render initial screen
@@ -110,6 +142,8 @@
       }
     })();
   </script>
+
+
 
 </body>
 </html>
