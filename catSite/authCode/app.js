@@ -17,7 +17,6 @@ var client_secret = '02885085be5c4b3494e7ad39dd033598'; // Your secret
 var redirect_uri = 'http://localhost:8888/callback'; // Your redirect uri
 //dfd
 
-/**
  * Generates a random string containing numbers and letters
  * @param  {number} length The length of the string
  * @return {string} The generated string
